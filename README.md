@@ -1,4 +1,4 @@
-# Provider State Service proof of concept
+# Provider State Server proof of concept
 
 This is the bare bones of a proof of concept to allow us to prove that we can use the Ruby pact verification code along with a javascript server that responsible for setting up the "provider states" for the application under test.
 
