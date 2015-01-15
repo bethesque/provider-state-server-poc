@@ -49,6 +49,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.4.2)
     randexp (0.1.7)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
@@ -75,3 +76,4 @@ DEPENDENCIES
   faraday
   pact
   pact-provider-proxy
+  rake
