@@ -9,7 +9,7 @@ module ProviderStateServerClient
 
   def set_up_state provider_state
     puts "Setting up provider state '#{provider_state}' using provider state server at #{PROVIDER_STATE_SERVER_SET_UP_URL}"
-    Faraday.post(PROVIDER_STATE_SERVER_SET_UP_URL, {"provider_state" => provider_state })
+    Faraday.post(PROVIDER_STATE_SERVER_SET_UP_URL, {"provider" => "Zoo App", "provider_state" => provider_state })
   end
 
 end

@@ -1,0 +1,15 @@
+{
+  "name": "provider-state-server-poc",
+  "version": "0.0.0",
+  "description": "This is the bare bones of a proof of concept to allow us to prove that we can use the Ruby pact verification code along with a javascript server that responsible for setting up the \"provider states\" for the application under test.",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.11.0",
+    "q": "^1.1.2",
+    "request": "^2.51.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node spec/pact-helper.js"
+  }
+}
